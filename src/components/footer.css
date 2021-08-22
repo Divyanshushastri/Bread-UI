@@ -1,0 +1,10 @@
+.footer-sm i,
+.footer-info p {
+  color: white;
+  font-size: 16px;
+  margin-right: 20px;
+}
+.footer-sm h6,
+.footer-info h6 {
+  color: white;
+}

@@ -1,0 +1,16 @@
+.dotted-line-container {
+  min-height: 600px;
+  max-height: 900px;
+  background-image: repeating-linear-gradient(
+    165deg,
+    white,
+    #8d34c9 2px,
+    white 2px,
+    white 60px
+  );
+}
+.dotted-container-in-mobile-mode {
+  min-height: 900px;
+  max-height: 1200px;
+  background-color: #8d34c9;
+}

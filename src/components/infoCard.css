@@ -1,0 +1,107 @@
+.card-container {
+  position: absolute;
+  top: 150px;
+  min-height: 500px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 700px;
+  background-color: #8d34c9;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+.atr-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 120px;
+}
+
+.atr-box p {
+  border: 1px solid #8d34c9;
+  width: 58px;
+  font-size: 11px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.instructor-pic {
+  border: 1px solid #8d34c9;
+  border-radius: 8px;
+  min-width: 80px;
+  max-width: 100px;
+  height: auto;
+}
+
+.instructor-desc {
+  color: #c0c0c0;
+}
+
+.book-trial {
+  border: #8d34c9 1px solid;
+  background-color: #8d34c9;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+}
+.contact-me {
+  border: #c0c0c0 1px solid;
+  color: black;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.instructor-sm {
+}
+.instructor-sm i {
+  color: black;
+  margin-right: 30px;
+  font-size: 18px;
+}
+hr {
+  margin: 10px 0;
+}
+.head {
+  font-weight: bold;
+}
+.capsule {
+  background-color: #c0c0c0;
+  border-radius: 8px;
+  margin-left: 10px;
+  padding: 0px 10px;
+}
+.icon {
+  color: black;
+  font-size: 14px;
+}
+iframe {
+  border: #8d34c9 1px solid;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.contact-me-btn {
+  color: #8d34c9;
+  font-size: 18px;
+}
+.contact-me-btn i {
+  color: #8d34c9;
+
+  font-size: 14px;
+}
+.subscribr-box {
+  border: 1px solid #c0c0c0;
+}
+.subscribr-box input {
+  width: 60%;
+}
+.subscribr-box .book-trial {
+  padding: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+  .subscribr-box input {
+    width: 80%;
+  }
+}
